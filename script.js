@@ -1,5 +1,8 @@
 function toCase(text) {
-  // write your code here
+  let arr = []
+	arr.push(text.toLowerCase(),"-",text.toUpperCase())
+	return arr.join("")
+	
 }
 
 // DO not change the code below
